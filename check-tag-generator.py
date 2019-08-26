@@ -1,3 +1,5 @@
+from tag-generator import HTML, TopLevelTag, Tag
+
 if __name__ == "__main__":
     with HTML(output=None) as doc:
         with TopLevelTag("head") as head:
