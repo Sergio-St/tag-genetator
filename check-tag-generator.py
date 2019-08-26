@@ -1,4 +1,4 @@
-from tag-generator import HTML, TopLevelTag, Tag
+from tag import HTML, TopLevelTag, Tag
 
 if __name__ == "__main__":
     with HTML(output=None) as doc:
